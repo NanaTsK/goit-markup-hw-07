@@ -283,11 +283,15 @@ address {
 } */
 
 .advantages-list {
+  /* gap: 24px; */
+
   display: flex;
-  gap: 24px;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 72px;
 }
 .advantages-item {
-  width: calc((100% - 72px) / 4);
+  width: 100%;
 }
 
 .advantages-bg {

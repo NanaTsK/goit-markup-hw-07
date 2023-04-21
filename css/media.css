@@ -1,3 +1,5 @@
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< @media PHONE */
+
 @media screen and (min-width: 428px) {
   .container {
     max-width: 428px;
@@ -5,14 +7,28 @@
 }
 
 @media screen and (max-width: 767px) {
+  .advantages .section-subtitle {
+    text-align: center;
+  }
+
   .team-list {
     flex-direction: column;
   }
 }
 
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< @media TABLET */
+
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
+  }
+
+  .advantages-list {
+    justify-content: center;
+    gap: 72px 24px;
+  }
+  .advantages-item {
+    width: calc((100% - 24px) / 2);
   }
 
   .team-list {
@@ -24,19 +40,42 @@
   }
 }
 
+@media screen and (max-width: 1199px) {
+  .advantages-bg {
+    display: none;
+  }
+
+  .advantages .section-subtitle {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+  }
+
+  .advantages .body-text-style {
+    font-weight: 500;
+  }
+}
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< @media DESKTOP */
+
 @media screen and (min-width: 1200px) {
   .container {
     max-width: 1158px;
+    padding: 0 15px;
   }
   .section {
     padding-top: 120px;
     padding-bottom: 120px;
   }
 
-  .team {
-    padding-top: 120px;
-    padding-bottom: 120px;
+  .advantages-list {
+    /* justify-content: center; */
+    gap: 24px;
   }
+  .advantages-item {
+    width: calc((100% - 72px) / 4);
+  }
+
   .team-list {
     gap: 24px;
   }
