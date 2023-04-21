@@ -38,6 +38,13 @@
   .team-item {
     width: calc((100% - 24px) / 2);
   }
+  .customers-list {
+    gap: 72px 24px;
+  }
+  .customers-item {
+    width: 168px;
+    height: 88px;
+  }
 }
 
 @media screen and (max-width: 1199px) {

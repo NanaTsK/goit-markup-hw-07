@@ -389,11 +389,13 @@ address {
 
 .customers-list {
   display: flex;
-  gap: 24px;
+  flex-wrap: wrap;
+  gap: 72px 16px;
+  justify-content: center;
 }
 
 .customers-item {
-  width: 168px;
+  width: 190px;
   height: 88px;
 }
 
