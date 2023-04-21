@@ -52,6 +52,10 @@
     display: none;
   }
 
+  .products {
+    display: none;
+  }
+
   .advantages .section-subtitle {
     font-weight: 700;
     font-size: 36px;
@@ -76,11 +80,22 @@
   }
 
   .advantages-list {
-    /* justify-content: center; */
     gap: 24px;
   }
   .advantages-item {
     width: calc((100% - 72px) / 4);
+  }
+
+  .products {
+    padding-top: 0;
+  }
+  .products-list {
+    display: flex;
+    gap: 24px;
+  }
+  .products-item {
+    width: calc((100% - 48px) / 3);
+    border: 1px solid var(--color-cornflower-borders);
   }
 
   .team-list {
@@ -88,5 +103,10 @@
   }
   .team-item {
     width: calc((100% - 72px) / 4);
+  }
+
+  .footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
   }
 }

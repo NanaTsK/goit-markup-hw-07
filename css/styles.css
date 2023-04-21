@@ -48,12 +48,6 @@ img {
   height: auto;
 }
 
-/* .container {
-  max-width: 428px;
-  padding: 0 16px;
-  margin: 0 auto;
-} */
-
 .container {
   max-width: 100%;
   padding: 0 16px;
@@ -283,8 +277,6 @@ address {
 } */
 
 .advantages-list {
-  /* gap: 24px; */
-
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -307,19 +299,14 @@ address {
 } */
 
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< COMPANY PRODUCTS */
-.products {
-  padding-top: 0;
-}
+/* .products {
+} */
 
-.products-list {
-  display: flex;
-  gap: 24px;
-}
+/* .products-list {
+} */
 
-.products-item {
-  width: calc((100% - 48px) / 3);
-  border: 1px solid var(--color-cornflower-borders);
-}
+/* .products-item {
+} */
 
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< COMPANY TEAM */
 .team {
@@ -342,11 +329,6 @@ address {
   box-shadow: var(--box-shadow);
   border-radius: 0px 0px 4px 4px;
 }
-
-/** not */
-/* .team-item:not(:last-child) {
-  margin-bottom: 72px;
-} */
 
 .team-item-info {
   padding: 32px 16px;
@@ -383,7 +365,6 @@ address {
 }
 
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< CUSTOMERS */
-
 /* .customers {
 } */
 
@@ -425,15 +406,32 @@ address {
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< FOOTER */
 footer .container {
   display: flex;
+  flex-wrap: wrap;
+  /* flex-wrap: nowrap; */
+  /* gap: 48px 24px; */
 }
 
 .footer {
   background-color: var(--color-navy-blue-secondary);
-  padding-top: 100px;
-  padding-bottom: 100px;
+}
+
+.footer .logo {
 }
 
 /* <<<<<<<<<<<<<<<<<< Footer Logo */
+
+.footer-logo-box {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+/* 
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+gap: 72px; */
+
 .logo-studio-footer {
   color: var(--color-cloud);
 }
