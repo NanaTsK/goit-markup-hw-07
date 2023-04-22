@@ -404,33 +404,29 @@ address {
 }
 
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< FOOTER */
-footer .container {
+.footer-wrap {
   display: flex;
-  flex-wrap: wrap;
-  /* flex-wrap: nowrap; */
-  /* gap: 48px 24px; */
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 72px;
 }
 
 .footer {
   background-color: var(--color-navy-blue-secondary);
 }
 
-.footer .logo {
-}
-
 /* <<<<<<<<<<<<<<<<<< Footer Logo */
 
 .footer-logo-box {
+}
+
+/* .footer-logo-box {
   display: flex;
   flex-wrap: wrap;
   text-align: center;
   justify-content: center;
-}
-/* 
-display: flex;
-flex-wrap: wrap;
-align-items: center;
-gap: 72px; */
+} */
 
 .logo-studio-footer {
   color: var(--color-cloud);
@@ -443,7 +439,11 @@ gap: 72px; */
 
 /* <<<<<<<<<<<<<<<<<< Footer Social */
 .footer-soc-box {
+  /* text-align: center; */
+
+  /* .footer-soc-box {
   margin-left: 120px;
+} */
 }
 .footer-soc-box .section-subtitle {
   font-size: 16px;
@@ -461,8 +461,11 @@ gap: 72px; */
   outline: transparent;
 }
 /* <<<<<<<<<<<<<<<<<< Footer Subsribe */
-.footer-subscribe-form {
+/* .footer-subscribe-form {
   margin-left: auto;
+} */
+.footer-subscribe-form {
+  width: 100%;
 }
 
 .footer-subscribe-form .section-subtitle {
@@ -470,18 +473,28 @@ gap: 72px; */
   line-height: 1.5;
 }
 
-.footer-subscribe-box {
+/* .footer-subscribe-box {
   display: flex;
   justify-content: center;
   margin-top: 16px;
   gap: 24px;
+} */
+.footer-subscribe-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 16px;
+  gap: 16px;
 }
 
+/* .subscribe-input {
+  width: 264px; */
+
 .subscribe-input {
-  width: 264px;
+  width: 100%;
   height: 40px;
   padding: 8px 16px;
-  border: 1px solid var(--color-white-main);
+  border: 1px solid rgba(255, 255, 255, 0.6);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   color: var(--color-white-main);
@@ -498,7 +511,7 @@ gap: 72px; */
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
-  color: var(--color-white-main);
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .modal-btn-subscribe {
