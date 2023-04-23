@@ -56,16 +56,9 @@
     flex-direction: row;
     flex-wrap: wrap;
     gap: 72px 24px;
-    padding-left: 108px;
     text-align: left;
     align-items: start;
-  }
-  .footer-soc-box {
-    /* flex-direction: row; */
-    /* align-content: baseline; */
-
-    /* display: flex; */
-    /* align-items: flex-start; */
+    padding: 0 108px;
   }
 
   .subscribe-input {
@@ -145,5 +138,11 @@
 
   .footer-soc-box {
     margin-left: 120px;
+    margin-right: 80px;
+  }
+
+  .footer-wrap {
+    flex-wrap: nowrap;
+    gap: unset;
   }
 }

@@ -421,13 +421,6 @@ address {
 .footer-logo-box {
 }
 
-/* .footer-logo-box {
-  display: flex;
-  flex-wrap: wrap;
-  text-align: center;
-  justify-content: center;
-} */
-
 .logo-studio-footer {
   color: var(--color-cloud);
 }
@@ -439,12 +432,8 @@ address {
 
 /* <<<<<<<<<<<<<<<<<< Footer Social */
 .footer-soc-box {
-  /* text-align: center; */
-
-  /* .footer-soc-box {
-  margin-left: 120px;
-} */
 }
+
 .footer-soc-box .section-subtitle {
   font-size: 16px;
   line-height: 1.5;
@@ -461,9 +450,7 @@ address {
   outline: transparent;
 }
 /* <<<<<<<<<<<<<<<<<< Footer Subsribe */
-/* .footer-subscribe-form {
-  margin-left: auto;
-} */
+
 .footer-subscribe-form {
   width: 100%;
 }
@@ -473,12 +460,6 @@ address {
   line-height: 1.5;
 }
 
-/* .footer-subscribe-box {
-  display: flex;
-  justify-content: center;
-  margin-top: 16px;
-  gap: 24px;
-} */
 .footer-subscribe-box {
   display: flex;
   flex-wrap: wrap;
@@ -486,9 +467,6 @@ address {
   margin-top: 16px;
   gap: 16px;
 }
-
-/* .subscribe-input {
-  width: 264px; */
 
 .subscribe-input {
   width: 100%;
