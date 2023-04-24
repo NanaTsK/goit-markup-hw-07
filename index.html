@@ -58,7 +58,7 @@
           </ul>
         </address>
 
-        <button type="button" class="menu-btn">
+        <button type="button" class="menu-btn-open" data-menu-open>
           <svg class="menu-icon" width="32" height="22">
             <use href="./images/sprite.svg#icon-mobile-menu"></use>
           </svg>
@@ -73,8 +73,8 @@
           </svg>
         </button> -->
 
-      <div class="mob-menu">
-        <button type="button" class="modal-btn-close">
+      <div class="mob-menu is-hidden" data-menu>
+        <button type="button" class="modal-btn-close" data-menu-close>
           <svg class="modal-close-icon" width="8" height="8">
             <use href="./images/sprite.svg#icon-close-btn"></use>
           </svg>
@@ -656,5 +656,7 @@
     </div> -->
 
     <!-- <script src="./js/modal.js"></script> -->
+
+    <script src="./js/menu.js"></script>
   </body>
 </html>
