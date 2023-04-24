@@ -24,6 +24,10 @@
 }
 
 @media screen and (max-width: 767px) {
+  .hero-title {
+    text-transform: capitalize;
+  }
+
   .advantages .section-subtitle {
     text-align: center;
   }
@@ -99,6 +103,18 @@
   background: var(--color-ocean-pressed);
   border-radius: 2px;
 } */
+
+  .hero {
+    padding-top: 188px;
+    padding-bottom: 188px;
+    max-width: 1199px;
+  }
+  .hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    max-width: 496px;
+    margin: 0 auto 36px;
+  }
 
   .advantages-list {
     justify-content: center;
@@ -184,6 +200,13 @@
   /* .contact-list {
     flex-direction: row;
   } */
+
+  .hero {
+    max-width: 1440px;
+  }
+  .hero-title {
+    margin: 0 auto 48px;
+  }
 
   .advantages-list {
     gap: 24px;
