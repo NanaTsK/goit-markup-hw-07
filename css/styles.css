@@ -374,6 +374,16 @@ header .container {
 /* justify-content: center; */
 
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< HERO */
+/* .hero {
+  padding-top: 188px;
+  padding-bottom: 188px;
+  background-color: var(--color-navy-blue-secondary);
+  background-image: var(--gradient-bg), url("../images/hero-bg.jpg");
+  max-width: 1440px;
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
+} */
 
 .hero {
   padding-top: 112px;
@@ -386,6 +396,15 @@ header .container {
   background-size: cover;
   margin: 0 auto;
 }
+
+/* .hero-title {
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  width: 496px;
+  margin: 0 auto 48px;
+  text-align: center;
+} */
 
 .hero-title {
   font-size: 36px;
