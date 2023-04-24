@@ -374,7 +374,8 @@ header .container {
 /* justify-content: center; */
 
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< HERO */
-/ .hero {
+
+.hero {
   padding-top: 112px;
   padding-bottom: 112px;
   text-align: center;
@@ -402,6 +403,7 @@ header .container {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-color: transparent;
 }
+
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< COMPANY ADVANTAGES */
 /* .advantages {
 } */
