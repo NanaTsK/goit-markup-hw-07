@@ -1,5 +1,22 @@
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< @media PHONE */
 
+@media screen and (min-width: 320px) and (max-width: 427px) {
+  .mob-address .section-title {
+    /* font-size: 24px; */
+    font-size: calc(
+      min(36px, 24px + (36 - 24) * ((100vw - 320px) / (428 - 320)))
+    );
+  }
+  .mob-soc-list {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 328px;
+    align-content: center;
+    justify-content: space-between;
+    gap: unset;
+  }
+}
+
 @media screen and (min-width: 428px) {
   .container {
     max-width: 428px;

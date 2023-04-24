@@ -82,7 +82,7 @@ img {
 
 address {
   font-style: normal;
-  margin-left: auto;
+  /* margin-left: auto; */
 }
 
 .address-link {
@@ -229,9 +229,9 @@ header .container {
 .modal-btn-close {
 }
 
-.mob-menu .section-title {
+.mob-address .section-title {
   font-weight: 700;
-  /* color: var(--color-iris-brand); */
+  color: var(--color-iris-brand);
   margin: 0;
 }
 
@@ -244,7 +244,7 @@ header .container {
 .mob-page-nav {
 }
 .mob-menu-list {
-  margin-bottom: 284px;
+  margin-bottom: 40px;
 }
 
 .mob-menu-item {
@@ -254,14 +254,15 @@ header .container {
 }
 .mob-menu-link {
   color: var(--color-navy-blue-secondary);
-
+  font-weight: 700;
   transition: color var(--transition-duration-function);
 }
 .mob-menu-link:is(:active, :hover, :focus),
 .mob-address-link:is(:active, :hover, :focus) {
   color: var(--color-ocean-pressed);
 }
-.mob-address-link.active {
+.mob-address-link.active,
+.mob-menu-link.active {
   color: var(--color-ocean-pressed);
 }
 
