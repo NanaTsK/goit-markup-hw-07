@@ -336,11 +336,19 @@ header .container {
   padding-bottom: 112px;
   text-align: center;
   background-color: var(--color-navy-blue-secondary);
-  background-image: var(--gradient-bg), url("../images/hero-bg.jpg");
+  background-image: var(--gradient-bg), url("../images/hero/hero-bg-tab.jpg");
   max-width: 767px;
   background-position: center;
   background-size: cover;
   margin: 0 auto;
+}
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    background-image: var(--gradient-bg),
+      url("../images/hero/hero-bg-tab@2x.jpg");
+  }
 }
 
 .hero-title {
