@@ -89,7 +89,7 @@ address {
   /* margin-left: auto; */
 }
 
-.address-link {
+/* .address-link {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: inherit;
@@ -97,7 +97,7 @@ address {
   padding-bottom: 24px;
 
   transition: color var(--transition-duration-function);
-}
+} */
 
 .modal-btn {
   font-family: inherit;
@@ -167,7 +167,6 @@ address {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  margin-right: 76px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--color-iris-brand);
@@ -191,9 +190,6 @@ address {
 .address {
   display: none;
 }
-/* .menu-list {
-  display: none;
-} */
 
 /** <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< HEADER MOBILE */
 
@@ -296,7 +292,6 @@ header .container {
 .mob-menu-list {
   margin-bottom: 40px;
 }
-
 .mob-menu-item {
 }
 .mob-menu-item:not(:last-child) {
@@ -320,10 +315,6 @@ header .container {
 }
 .section-title {
 }
-/* .mob-menu .section-title {
-  font-weight: 700;
-  margin: 0;
-} */
 .mob-address {
 }
 .mob-contact-list {
@@ -331,47 +322,12 @@ header .container {
 .mob-address-item {
   margin-bottom: 40px;
 }
-
 .mob-address-link {
 }
 .mob-soc-list {
   display: flex;
   gap: 56px;
 }
-
-/** <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< HEADER MOBILE */
-/* 
-.mob-menu {
-  position: relative;
-  background: rgb(235, 246, 213);
-  padding: 80px 35px 40px 40px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-.mob-page-nav {
-}
-.menu-list {
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
-}
-
-.contact-list {
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
-}
-
-.mob-address {
-  display: flex;
-}
-
-.mob-soc-list {
-  display: flex;
-  gap: 56px;
-} */
-/* justify-content: center; */
 
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< HERO */
 
