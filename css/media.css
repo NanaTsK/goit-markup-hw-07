@@ -17,7 +17,6 @@
   }
 
   .mob-address .section-title {
-    /* font-size: 24px; */
     font-size: calc(
       min(36px, 24px + (36 - 24) * ((100vw - 320px) / (428 - 320)))
     );
@@ -56,18 +55,16 @@
     text-align: center;
   }
 }
+/* =================================PORTFOLIO */
 
-/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< @media TABLET */
+/** <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< @media TABLET */
 
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
   }
-  /** =================================HEADER */
+  /* =================================HEADER */
 
-  /* .logo {
-    padding: 24px 0;
-  } */
   .menu-btn-open {
     display: none;
   }
@@ -139,7 +136,7 @@
     gap: 12px;
   }
 
-  /** =================================HERO */
+  /* =================================MAIN */
 
   .hero {
     max-width: 1199px;
@@ -185,6 +182,7 @@
     width: 168px;
     height: 88px;
   }
+  /* =================================FOOTER */
 
   .footer-wrap {
     flex-direction: row;
@@ -204,6 +202,12 @@
   }
   .modal-btn-subscribe {
     margin-left: 0;
+  }
+
+  /* =================================PORTFOLIO */
+  .portfolio {
+    padding-top: 64px;
+    padding-bottom: 96px;
   }
 }
 
@@ -231,12 +235,8 @@
   .header {
     padding: 16px 0;
   }
-  /* .contact-list {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-  } */
 }
+
 /** <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< @media DESKTOP */
 
 @media screen and (min-width: 1200px) {
@@ -255,14 +255,7 @@
   header .container {
     justify-content: flex-start;
   }
-  header .container {
-    /* justify-items: center; */
-    /* justify-content: flex-start; */
-  }
 
-  /* .contact-list {
-    flex-direction: row;
-  } */
   .contact-list {
     flex-direction: row;
     gap: 40px;
@@ -338,8 +331,82 @@
     gap: unset;
   }
 
+  /* =================================PORTFOLIO */
+
   .portfolio {
     padding-top: 100px;
     padding-bottom: 120px;
   }
 }
+
+/* =================================PORTFOLIO */
+
+/** <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< PORTFOLIO Filter */
+
+/* .modal-btn-filter {
+  padding: 12px 24px;
+  height: 48px;
+  background-color: var(--color-cloud);
+  color: var(--color-iris-brand);
+  border: 1px solid var(--color-cornflower-borders);
+} */
+
+/* .filter-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+} */
+
+/** <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< PORTFOLIO Gallery */
+/* .portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 24px;
+} */
+
+/* .portfolio-item {
+  flex-basis: calc((100% - 48px) / 3);
+} */
+
+/* .portfolio-link {
+  display: block;
+  transition: box-shadow var(--transition-duration-function);
+} */
+
+/* .portfolio-item-info {
+  padding: 32px 16px;
+  border: 1px solid var(--color-cornflower-borders);
+  border-top: none;
+} */
+
+/* .portfolio-text {
+  color: var(--color-slate-primary);
+} */
+
+/* .portfolio-item-overlay {
+  position: relative;
+  display: block;
+  overflow: hidden;
+} */
+
+/* .overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  transform: translate(0, 100%);
+  transition: transform var(--transition-duration-function);
+
+  padding: 40px 32px;
+  color: var(--color-cloud);
+  background-color: var(--color-iris-brand);
+} */
+
+/* .portfolio-link:is(:hover, :focus),
+.portfolio-link:is(:hover, :focus) .overlay {
+  box-shadow: var(--box-shadow);
+  transform: translate(0, 0);
+  } */

@@ -601,8 +601,10 @@ header .container {
 }
 /** <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< PORTFOLIO Filter */
 .portfolio {
-  padding-top: 100px;
+  padding-top: 48px;
+  padding-bottom: 48px;
 }
+
 .modal-btn-filter {
   padding: 12px 24px;
   height: 48px;
