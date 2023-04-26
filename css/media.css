@@ -55,8 +55,6 @@
     text-align: center;
   }
 }
-/* =================================PORTFOLIO */
-
 /** <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< @media TABLET */
 
 @media screen and (min-width: 768px) {
@@ -215,7 +213,16 @@
     gap: 24px;
     margin-bottom: 64px;
   }
+  .portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 72px 24px;
+  }
+  .portfolio-item {
+    flex-basis: calc((100% - 24px) / 2);
+  }
 }
+/* =================================PORTFOLIO end */
 
 @media screen and (max-width: 1199px) {
   .advantages-bg {
@@ -344,6 +351,15 @@
   }
   .filter-list {
     margin-bottom: 72px;
+  }
+
+  .portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px 24px;
+  }
+  .portfolio-item {
+    flex-basis: calc((100% - 48px) / 3);
   }
 }
 
