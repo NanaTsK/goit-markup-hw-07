@@ -61,6 +61,11 @@
   .container {
     max-width: 768px;
   }
+
+  .modal {
+    width: 408px;
+    padding: 72px 24px 24px;
+  }
   /* =================================HEADER */
 
   .menu-btn-open {
