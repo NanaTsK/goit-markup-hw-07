@@ -192,21 +192,6 @@ header .container {
   justify-content: space-between;
 }
 
-.mob-wrap {
-  /* display: flex;
-  margin: 0 auto;
-  justify-items: center;
-  max-width: 427px; */
-  /* margin: 0 auto;
-  max-width: 427px; */
-  /* display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-  padding: 80px 35px 40px 40px; */
-  /* width: 100%;
-  height: 100%; */
-}
-
 .mob-menu {
   position: fixed;
   top: 0;
@@ -216,12 +201,12 @@ header .container {
   height: 100%;
   background-color: var(--color-white-main);
   padding: 80px 35px 40px 40px;
-
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
 
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
   transition: transform var(--transition-duration-function);
 }
 
@@ -239,8 +224,8 @@ header .container {
 .mob-menu .modal-btn-close {
   background: rgba(231, 233, 252, 0.1);
 }
-.modal-btn-close {
-}
+/* .modal-btn-close {
+} */
 
 .mob-address .section-title {
   font-weight: 700;
@@ -252,15 +237,15 @@ header .container {
   color: var(--color-slate-primary);
 }
 
-.modal-close-icon {
-}
-.mob-page-nav {
-}
+/* .modal-close-icon {
+} */
+/* .mob-page-nav {
+} */
 .mob-menu-list {
   margin-bottom: 40px;
 }
-.mob-menu-item {
-}
+/* .mob-menu-item {
+} */
 .mob-menu-item:not(:last-child) {
   margin-bottom: 40px;
 }
@@ -278,22 +263,19 @@ header .container {
   color: var(--color-ocean-pressed);
 }
 
-.active {
-}
-.section-title {
-}
-.mob-address {
-}
-.mob-contact-list {
-}
+/* .mob-address {
+} */
+/* .mob-contact-list {
+} */
 .mob-address-item {
   margin-bottom: 40px;
 }
-.mob-address-link {
-}
+/* .mob-address-link {
+} */
 .mob-soc-list {
   display: flex;
   gap: 56px;
+  justify-content: center;
 }
 
 /* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< HERO */
@@ -481,8 +463,8 @@ header .container {
 
 /* <<<<<<<<<<<<<<<<<< Footer Logo */
 
-.footer-logo-box {
-}
+/* .footer-logo-box {
+} */
 
 .logo-studio-footer {
   color: var(--color-cloud);
@@ -491,11 +473,12 @@ header .container {
 .footer-text {
   width: 264px;
   margin-top: 16px;
+  text-align: start;
 }
 
 /* <<<<<<<<<<<<<<<<<< Footer Social */
-.footer-soc-box {
-}
+/* .footer-soc-box {
+} */
 
 .footer-soc-box .section-subtitle {
   font-size: 16px;
@@ -591,12 +574,10 @@ header .container {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  /* flex-direction: column; */
   gap: 48px;
 }
-.portfolio-item {
-  /* flex-basis: calc((100% - 48px) / 3); */
-}
+/* .portfolio-item {
+} */
 
 .portfolio-link {
   display: block;
