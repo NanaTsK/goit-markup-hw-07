@@ -29,6 +29,11 @@
     justify-content: space-between;
     gap: unset;
   }
+
+  .modal {
+    width: 100%;
+    max-width: 391px;
+  }
 }
 
 @media screen and (min-width: 428px) {
